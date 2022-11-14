@@ -4,7 +4,12 @@ export default class Pizza {
     this.topping1 = topping1;
     this.topping2 = topping2;
     this.topping3 = topping3;
-  } addToppings(){
+  } addToppings(topping1){
+    if(topping1 === 'pineapple'){
+      return 'yummy';
+    }else{
+      return 'gross';
+    }
 
   }
 }
